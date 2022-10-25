@@ -12,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Navigate to={'/pokemons'} />
         <Routes>
           <Route index element={<MainPage/>}/>
           <Route path='/help' element={<Help />}/>
