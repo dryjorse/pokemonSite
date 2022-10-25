@@ -1,0 +1,41 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Mui-expanded {
+  margin: 0 !important;
+  height: fit-content !important;
+  min-height: 0px !important;
+}
+.MuiAccordionDetails-root {
+  padding: 0 16px !important;
+}
+.arrowIcon {
+  transform: rotate(180deg);
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root {
+  padding-right: 12px !important;
+} 
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}

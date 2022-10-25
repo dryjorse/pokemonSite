@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    width: 1180px;
+    margin: 0 auto;
+    flex: 1 1 auto;
+}

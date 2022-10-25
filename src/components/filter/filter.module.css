@@ -1,0 +1,68 @@
+.main {
+    position: relative;
+    padding: 32px 56px 0 0;
+    border-right: 6px solid #121212;
+}
+.figure {
+    top: 0;
+    right: 0;
+    transform: translate(55%, -55%);
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 50%;
+}
+.filters {
+    position: relative;
+    width: 225px;
+}
+.filtersList:not(:last-child) {
+    margin-bottom: 32px;
+}
+.filterBody {
+    margin-bottom: 32px;
+}
+.filterLi {
+    position: relative;
+}
+.filtersList:not(:last-child){
+    margin-bottom: 32px;
+}
+.filterBtn {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+.filterName {
+    display: block;
+    margin-left: 36px;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 150%;
+}
+.filterName::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: inherit;
+    border: 1px solid #9A9A9A;
+    border-radius: 50%;
+    left: 0;
+    box-sizing: border-box;
+}
+.filterName::after {
+    content: '';
+    transition: 0.2s ease-in;
+}
+.filterBtn:checked + .filterName::after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #121212;
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+}

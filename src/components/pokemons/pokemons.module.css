@@ -1,0 +1,35 @@
+.main {
+    padding: 32px 0 100px 55px;
+}
+.sortText {
+    font-weight: 600;
+}
+.sortBlock {
+    margin-top: 16px;
+}
+.sortBtn {
+    color: #3F3F3F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sortBtn:not(:last-child){
+    margin-right: 40px;
+}
+.pokemonsBlock {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+}
+.nextBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.next {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px 50px;
+    background-color: #3F3F3F;
+}
