@@ -1,0 +1,15 @@
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #121212;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.name {
+    text-align: center;
+    text-transform: capitalize;
+}

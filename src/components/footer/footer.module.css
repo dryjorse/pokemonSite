@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #121212;
+    padding: 24px 0 32px;
+}
+.text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+}
+.social {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 12px 0 0 0;
+}
+.socialList:not(:last-child){
+    margin-right: 50px;
+}
