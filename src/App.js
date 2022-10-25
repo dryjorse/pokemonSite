@@ -11,9 +11,8 @@ function App() {
   
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App">git
         <Routes>
-          <Navigate to={'/pokemons'} />
           <Route index element={<MainPage/>}/>
           <Route path='/help' element={<Help />}/>
           <Route path='/contacts' element={<ContactsPage />} />
