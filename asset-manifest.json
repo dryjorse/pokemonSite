@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pokemonSite/static/css/main.c95026d2.css",
-    "main.js": "/pokemonSite/static/js/main.023c37db.js",
+    "main.css": "/pokemonSite/static/css/main.c8c902ea.css",
+    "main.js": "/pokemonSite/static/js/main.412c9134.js",
     "static/media/instagram.svg": "/pokemonSite/static/media/instagram.f5a3670f90420e1c178f622a37f354e0.svg",
     "static/media/checkedRadio_pokemon.svg": "/pokemonSite/static/media/checkedRadio_pokemon.74eb9afefb4cd78e1bf3bf20da1a4626.svg",
     "static/media/youtube.svg": "/pokemonSite/static/media/youtube.7a66763c669451952f05e2489620cd8c.svg",
@@ -13,11 +13,11 @@
     "static/media/checked_checbox_pokemon.svg": "/pokemonSite/static/media/checked_checbox_pokemon.6aab676b446b3d969e7abec258bc13bc.svg",
     "static/media/radioIcon_pokemon.svg": "/pokemonSite/static/media/radioIcon_pokemon.422d633a88c5210ddb08c96889b8e43e.svg",
     "static/media/checkbox_pokemon.svg": "/pokemonSite/static/media/checkbox_pokemon.7a1bd31911d182a72428ea2bceb10803.svg",
-    "main.c95026d2.css.map": "/pokemonSite/static/css/main.c95026d2.css.map",
-    "main.023c37db.js.map": "/pokemonSite/static/js/main.023c37db.js.map"
+    "main.c8c902ea.css.map": "/pokemonSite/static/css/main.c8c902ea.css.map",
+    "main.412c9134.js.map": "/pokemonSite/static/js/main.412c9134.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95026d2.css",
-    "static/js/main.023c37db.js"
+    "static/css/main.c8c902ea.css",
+    "static/js/main.412c9134.js"
   ]
 }
